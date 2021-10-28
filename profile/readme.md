@@ -52,7 +52,7 @@ Vliegtuig reservatie applicatie
   - [ ] ?
 ### 01/11 
 - Front-end
-  - [ ] ?
+  - [ ] Design
   - [ ] ?
   - [ ] ?
 - Back-end
@@ -61,13 +61,11 @@ Vliegtuig reservatie applicatie
   - [ ] ?
 ### 08/11 
 - Front-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [ ] Login, register pagina
+  - [ ] Firebase authenticatie
 - Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [ ] Firebase authenticatie
+  - [ ] Database opgezet
 ### 15/11 
 - Front-end
   - [ ] ?
