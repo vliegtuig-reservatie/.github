@@ -19,7 +19,7 @@ Vliegtuig reservatie applicatie
 #### Back-end
 - Framework: Node Express
 - Auth: Firebase
-- Database: ?
+- Database: MongoDB
 - API: GraphQL
 
 ## Test users
@@ -35,9 +35,9 @@ Vliegtuig reservatie applicatie
 
 ## Werkverdeling
 - Aaron
-  - ?
+  - Backend en frontend
 - Marco
-  - ?
+  - Backend en frontend
 
 
 ## Milestones
