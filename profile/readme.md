@@ -55,6 +55,10 @@ Vliegtuig reservatie applicatie
   - [ ] Dashboard page functionality
   - [ ] Booking page design
   - [ ] Booking page functionality
+  - [ ] Seat selection page design
+  - [ ] Seat selection page functionality
+  - [ ] Review page design
+  - [ ] Review page functionality
   - [X] Firebase authenticatie
   - [ ] ...
 
