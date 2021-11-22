@@ -19,7 +19,7 @@ Vliegtuig reservatie applicatie
 #### Back-end
 - Framework: Node Express
 - Auth: Firebase
-- Database: MongoDB
+- Database: MariaDB
 - API: GraphQL
 
 ## Test users
@@ -30,7 +30,7 @@ Vliegtuig reservatie applicatie
   - User: test@user.com
   - Password: verysafepassword123
 - Back-end
-  - User: docent@howest.be
+  - User: admin
   - Password: P@ssw0rd
 
 ## Werkverdeling
@@ -38,6 +38,25 @@ Vliegtuig reservatie applicatie
   - Backend en frontend
 - Marco
   - Backend en frontend
+
+## Checklist
+- Back-end
+  - [ ] Entities
+  - [ ] Resolvers
+  - [ ] Firebase authenticatie
+  - [ ] Role checking
+  - [ ] ...
+- Front-end
+  - [X] Login page design
+  - [X] Login page functionality
+  - [X] Register page design
+  - [X] Register page functionality
+  - [X] Dashboard page design
+  - [ ] Dashboard page functionality
+  - [ ] Booking page design
+  - [ ] Booking page functionality
+  - [X] Firebase authenticatie
+  - [ ] ...
 
 
 ## Milestones
@@ -67,6 +86,24 @@ Vliegtuig reservatie applicatie
   - [ ] Firebase authenticatie
   - [ ] Database opgezet
 ### 15/11 
+- Front-end
+  - [ ] ?
+  - [ ] ?
+  - [ ] ?
+- Back-end
+  - [ ] ?
+  - [ ] ?
+  - [ ] ?
+### 22/11 
+- Front-end
+  - [ ] ?
+  - [ ] ?
+  - [ ] ?
+- Back-end
+  - [ ] ?
+  - [ ] ?
+  - [ ] ?
+### 29/11 
 - Front-end
   - [ ] ?
   - [ ] ?
