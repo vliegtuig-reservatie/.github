@@ -39,80 +39,67 @@ Vliegtuig reservatie applicatie
 - Marco
   - Backend en frontend
 
-## Checklist
-- Back-end
-  - [ ] Entities
-  - [ ] Resolvers
-  - [ ] Firebase authenticatie
-  - [ ] Role checking
-  - [ ] ...
-- Front-end
-  - [X] Login page design
-  - [X] Login page functionality
-  - [X] Register page design
-  - [X] Register page functionality
-  - [X] Dashboard page design
-  - [ ] Dashboard page functionality
-  - [ ] Booking page design
-  - [ ] Booking page functionality
-  - [ ] Seat selection page design
-  - [ ] Seat selection page functionality
-  - [ ] Review page design
-  - [ ] Review page functionality
-  - [X] Firebase authenticatie
-  - [ ] ...
-
-
 ## Milestones
-### 25/10 
-- Front-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
-- Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
-### 01/11 
-- Front-end
-  - [ ] Design
-  - [ ] ?
-  - [ ] ?
-- Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
 ### 08/11 
 - Front-end
-  - [ ] Login, register pagina
-  - [ ] Firebase authenticatie
+  - [X] Setup
+  - [X] Login, register pagina
+  - [X] Header
+  - [X] Firebase authenticatie
 - Back-end
-  - [ ] Firebase authenticatie
-  - [ ] Database opgezet
+  - [X] Setup
+  - [X] Firebase authenticatie
+  - [X] Mongodb opgezet
 ### 15/11 
 - Front-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [X] Dashboard design
+  - [X] Dashboard functionality, data, ...
 - Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [X] Entities (Flight, Airport, Plane, Seat, User)
+  - [X] Basic resolvers
 ### 22/11 
-- Front-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
 - Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [X] More resolvers
+  - [X] Moved to mariadb
+  - [X] Making relations
 ### 29/11 
 - Front-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [X] Booking page design & functionality
+  - [X] Account dropdown + pages
 - Back-end
-  - [ ] ?
-  - [ ] ?
-  - [ ] ?
+  - [X] Seeding
+  - [X] Some more resolvers & relations
+
+### 06/12 
+- Front-end
+  - [X] Seat selection design & functionality
+  - [X] My bookings page
+  - [X] Responsiveness
+- Back-end
+  - [X] More seeder data
+  - [X] Even more resolvers & relations
+### 13/12 
+- Front-end
+  - [X] Dashboard filter inputs
+  - [X] Reviews pages & functionality
+  - [X] Fine tuning
+- Back-end
+  - [X] Authentication
+  - [X] Custom claims for roles
+### 20/12 
+- Front-end
+  - [X] Admin pages
+  - [X] Account settings
+  - [X] Reviews summary for admin
+  - [X] Added First Class, Business and Economy classes to seat selection
+  - [X] Added problems page for admin
+  - [X] Some more fine tuning, extras
+  - [X] Dockerizing
+  - [X] Kubernetes deployment
+  - [X] Tried to get unit/integration tests to work, guess what it didn't work :(
+- Back-end
+  - [X] Dockerizing
+  - [X] Kubernetes deployment
+### 21/12 
+- [X] Finish project
+- [X] Prepare for presentation
