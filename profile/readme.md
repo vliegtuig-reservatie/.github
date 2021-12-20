@@ -103,3 +103,79 @@ Vliegtuig reservatie applicatie
 ### 21/12 
 - [X] Finish project
 - [X] Prepare for presentation
+
+## Checklists
+- Back-end
+  - [X] Is een NodeJS Express API die via Docker gehost wordt op Kubernetes
+  - Gegevens worden persistent gestockeerd in de meest passende datastructuur. Maak
+een goed onderbouwde keuze.
+    - [X] SQL
+    - [ ] NoSQL
+  - [X] Backend communiceert naar frontend in realtime en vice-versa met de gepaste
+protocollen.
+  - [X] Firebase of dergelijke
+  - PKCE Flow gebruiken
+  - [X] Minimaal 2 rollen: gebruiker en administrator
+  - [X] Admin is voorzien: “docent@howest.be” met paswoord “P@ssw0rd”
+  - [X] CORS is enabled
+  - [ ] Extra beveiligingen tegen Cross Site Forgery, Cross Site Scripting
+  - [X] De API documenteert zichzelf op basis van een self-documenting library. (bv.: Swagger
+of GraphiQL)
+  - [ ] Ook statuscodes bij foutcondities worden gedocumenteerd.
+  - [X] Kies een goede manier om je project te structureren
+  - [X] Via een seeder wordt de database bij opstarten van de applicatie automatisch
+aangemaakt.
+  - [X] Gebruik logische microservices in Docker / Kubernetes.
+  - [X] Eén service maakt gebruik van gRPC of GraphQL.
+  - [ ] Het crashen van de applicatie wordt verhinderd door het gebruik van een try/catch
+structuur waarbij de oorzaken bijgehouden worden via een logger.
+  - [ ] Foutboodschappen worden altijd via een JSON aan de front bezorgd.
+  - [X] Source controle gebeurt via GitHub door regelmatig te pushen. 
+  - [X] De applicatie draait volledig in Docker.
+  - [ ] Container wordt automatisch via GitHub Actions gebuild en gepushed naar een Image
+Registry (DockerHub / Harbor) (met versiebeheer van de Container tags)
+  - [ ] Image beschikbaar op DockerHub / Harbor
+  - Kies een gepaste Kubernetes deployment methodiek (Canary, blue-green, rolling …)
+  - Extra uitbreidingsmogelijkheden, niet gezien in de les. 
+    - [ ] Versiebeheer
+    - [ ] Response Caching en Ratelimiting
+    - [ ] Memory Caching
+    - [ ] Gebruik Ocelot als API gateway
+    - [ ] Unittesten / Integratie testen van de API
+    - [ ] Voorzie een interactie met hardware
+    - [ ] Integratie met een AI service in cloud
+
+- Front-end
+  - Met een JS-framework gemaakt, met TypeScript.
+    - [X] Vue.js
+    - [ ] Angular
+    - [ ] Svelte
+    - [ ] React
+  - [ ] Minstens één unit test
+   - Dit geprobeerd met jest en cypress maar heel veel problemen mee, bij installatie alleen al.
+  - [ ] Minstens één integratie test.
+  - [X] Je werkt met SCSS met een solide achterliggende structuur of tailwindCSS.
+Je voorziet ghosts, skeletons / loading states.
+  - [X] Je voorziet input-validatie en error meldingen.
+  - [ ] De web app kan fullscreen launchen en heeft een correcte PWA-setup
+   - Dit ook geprobeerd, service worker wil niks doen.
+  - [ ] De applicatie meertalig maken kan zeker een meerwaarde zijn. Indien je dit op een
+goede manier uitwerkt, kan dit zeker extra punten opleveren.
+  - [ ] Het is een meerwaarde om fouten te loggen. Iets in de aard van https://sentry.io/.
+  - [ ] Gebruik van https://codeclimate.com voor code testing en reviews is een
+meerwaarde.
+  - [X] De applicatie draait volledig in Docker.
+Werken met gitflow is aangeraden.
+  - [X] Gebruik vite voor een betere JS-files delivery.
+  - Werk iets kleins uit, dat niet uitgewerkt werd in de cursus, waar je via zelfstudie
+extra punten mee wil verdienen.
+    - [ ] Gebruik van Svelte, Vue of Angular.
+    - [ ] Testing in deployment pipeline (speedtest, functional).
+    - [ ] Transities tussen schermen
+     - Geprobeerd, transities deden rare dingen.
+    - [ ] Gebruik van Next.js, Gatsby of Nuxt indien relevant voor SEO
+    - [ ] Uitwerking van onderdeel met Web Assembly.
+    - [ ] Web worker die zware taken van de main thread halen
+    - [ ] Shared workers voor syncrone werking over meerdere tabs (indien
+  relevant).
+
