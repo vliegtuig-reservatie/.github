@@ -178,4 +178,11 @@ extra punten mee wil verdienen.
     - [ ] Web worker die zware taken van de main thread halen
     - [ ] Shared workers voor syncrone werking over meerdere tabs (indien
   relevant).
+  
+## Grootse moeilijkheid
+- Kubernetes deployment
+  - [X] Opgelost
+- Unit & integration test
+- PWA
+- Vue transitions
 
